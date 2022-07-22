@@ -33,6 +33,9 @@ img {
     gap: 75px;
 }
 .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .buttons {
     display: flex;
