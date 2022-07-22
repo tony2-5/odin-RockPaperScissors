@@ -1,0 +1,44 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content:space-between;
+}
+img {
+    width: 150px;
+}
+.header {
+    display: flex;
+}
+.score {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.score .playerScore {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.score .opponentScore {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+}
+.footer {
+}
+.buttons {
+    display: flex;
+    gap: 80px;
+}
+#vsImg1, #vsImg2 {
+    width: 100px;
+}
+
