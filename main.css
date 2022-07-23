@@ -6,6 +6,12 @@ html, body {
     justify-content:space-between;
     cursor: pointer;
 }
+
+body {
+    background-image: url("./images/_21_fire-background-gif_Best-Fire-Background-GIFs-Gfycat.gif");
+    background-size: cover;
+    color: rgb(240, 229, 229);
+}
 img {
     width: 150px;
 }
@@ -33,6 +39,11 @@ img {
     align-items: center;
     gap: 75px;
 }
+.mainHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -41,6 +52,10 @@ img {
 .buttons {
     display: flex;
     gap: 80px;
+}
+#rockButton, #scissorsButton, #paperButton {
+    background-color:transparent;
+    border: 0;
 }
 #vsImg1, #vsImg2 {
     width: 100px;

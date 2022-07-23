@@ -45,11 +45,12 @@ let rockClicked = () => {
         }
         document.getElementById('scorePlayer').innerHTML = playerScore;
         document.getElementById('scoreBot').innerHTML = botScore;
-    } else if(playerScore == 5) {
-        document.getElementById("gameMsg").innerHTML = "Congrats, you win! Select 'New Game' to play again."
-    } else if(botScore == 5) {
-        document.getElementById("gameMsg").innerHTML = "You lost :( select 'New Game' to try again."
-    }
+        if(playerScore == 5) {
+            document.getElementById("gameMsg").innerHTML = "Congrats, you win! Select 'New Game' to play again."
+        } else if(botScore == 5) {
+            document.getElementById("gameMsg").innerHTML = "You lost :( select 'New Game' to try again."
+        }
+    } 
 }
 rockEl.addEventListener('click', rockClicked);
 
@@ -68,11 +69,12 @@ let paperClicked = () => {
         }
         document.getElementById('scorePlayer').innerHTML = playerScore;
         document.getElementById('scoreBot').innerHTML = botScore;
-    } else if(playerScore == 5) {
-        document.getElementById("gameMsg").innerHTML = "Congrats, you win! Select 'New Game' to play again."
-    } else if(botScore == 5) {
-        document.getElementById("gameMsg").innerHTML = "You lost :( select 'New Game' to try again."
-    }
+        if(playerScore == 5) {
+            document.getElementById("gameMsg").innerHTML = "Congrats, you win! Select 'New Game' to play again."
+        } else if(botScore == 5) {
+            document.getElementById("gameMsg").innerHTML = "You lost :( select 'New Game' to try again."
+        }
+    } 
 }
 
 paperEl.addEventListener('click', paperClicked);
@@ -92,12 +94,12 @@ let scissorsClicked = () => {
         }
         document.getElementById('scorePlayer').innerHTML = playerScore;
         document.getElementById('scoreBot').innerHTML = botScore;
-    } else if(playerScore == 5) {
-        document.getElementById("gameMsg").innerHTML = "Congrats, you win! Select 'New Game' to play again."
-    } else if(botScore == 5) {
-        document.getElementById("gameMsg").innerHTML = "You lost :( select 'New Game' to try again."
+        if(playerScore == 5) {
+            document.getElementById("gameMsg").innerHTML = "Congrats, you win! Select 'New Game' to play again."
+        } else if(botScore == 5) {
+            document.getElementById("gameMsg").innerHTML = "You lost :( select 'New Game' to try again."
+        }
     }
 }
 scissorsEl.addEventListener('click', scissorsClicked);
-
 
