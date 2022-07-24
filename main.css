@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url("https://tony2-5.github.io/odin-RockPaperScissors/images/_21_fire-background-gif_Best-Fire-Background-GIFs-Gfycat.gif");
+    background-image: url("/images/_21_fire-background-gif_Best-Fire-Background-GIFs-Gfycat.gif");
     background-size: cover;
     color: rgb(240, 229, 229);
 }
